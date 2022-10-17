@@ -1,7 +1,6 @@
 
 # SQL for Analytics
 
----
 
 ##  Overview
 
@@ -15,7 +14,7 @@ The process devided into three parts:
 2. Understanding attributes, relationship between entities with the help of ER diagrams
 3. Fetch data as per requirement for Analytical insights, the following sql syntax/functions used:
     * sub queries, aggregate functions, window functions, Joins, filtering etc
----
+### ---
     
 ## Problem statement 1 (Q1)
 Find all the non-local orders by looking at the salesmen that generated orders for their
