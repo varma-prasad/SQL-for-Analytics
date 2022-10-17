@@ -134,9 +134,11 @@ FROM
 ----
 
 
+
 ## 🔗 Links
-[![portfolio](https://github.com/varma-prasad](https://github.com.com/)
-[![linkedin](https://www.linkedin.com/in/varma-prasad-s/](https://www.linkedin.com/)
+[![portfolio](https://github.com/varma-prasad?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![linkedin](https://www.linkedin.com/in/varma-prasad-s/?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
 
 
 
