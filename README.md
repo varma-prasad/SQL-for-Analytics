@@ -88,3 +88,46 @@ ORDER BY
 ![Q2_Output](https://github.com/varma-prasad/SQL-for-Analytics/blob/6863e80be7e4e2be5775f5ad8baf3441fda0b10f/images/q2_output.png)
 
 ----
+## Problem statement 3 (Q3)
+There are research institutes with Researchers who have written papers under the guidance of
+their mentors. You are given a database named ResearchInstitute for one such Institution.
+
+
+## Input data of Q3
+
+![Q3_input](https://github.com/varma-prasad/SQL-for-Analytics/blob/82ae635a303feb8632ff19946c306dd6ad2ace66/images/3_input.png)
+
+## Query for Q3
+```
+SELECT 
+	p_subject
+FROM
+ 	(SELECT *, MAX(ct) OVER (PARTITION BY m_gender,P_subject) mc
+ 	FROM
+ 		(SELECT 
+ 			m_gender, p_subject, COUNT(*) AS ct
+		 FROM
+ 			mentors me INNER JOIN research_mentor rm -- Inner join of tables
+ 			  ON me.m_id = rm.m_id
+ 			INNER JOIN researchers r 
+ 			  ON r.r_id = rm.r_id
+ 			INNER JOIN research_paper rp
+ 			  ON rp.r_id = r.r_id
+ 			INNER JOIN papers p
+ 			  ON p.p_id = rp.p_id
+ 		WHERE 
+ 			p_subject LIKE '%b%' 		-- subject with b letter 
+ 		GROUP BY m_gender, p_subject) a
+ 		) b
+ WHERE 
+ 	m_gender = 'F' 		-- filtering gender
+ AND
+ 	ct = mc 	-- filtering the paper
+ 									-- sorting the orders
+```
+
+## output data of Q3
+
+![Q3_Output](https://github.com/varma-prasad/SQL-for-Analytics/blob/82ae635a303feb8632ff19946c306dd6ad2ace66/images/q3_output.png)
+
+----
