@@ -7,6 +7,7 @@
 The powerful usage of SQL tool to fetch data from Database is demonstrated. 
 There are three problem statements related to Customer orders, Employee incentives and 
 research papers from an university.
+---
 
 ## Technical Aspect
 The process devided into three parts:
