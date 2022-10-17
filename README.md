@@ -138,3 +138,9 @@ FROM
 - [Varma Prasad s](https://www.github.com/octokatherine)
 
 
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+
+
