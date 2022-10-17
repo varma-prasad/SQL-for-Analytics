@@ -13,7 +13,12 @@ The process devided into three parts:
 1. creating tables and inserting data into Database
 2. Understanding attributes, relationship between entities with the help of ER diagrams
 3. Fetch data as per requirement for Analytical insights, the following sql syntax/functions used:
-    * sub queries, aggregate functions, window functions, Joins, filtering etc
+    * Aggregate Functions
+    * Filters
+    * Clauses
+    * Sub Queries(nested,correlated)
+    * Joins
+    * Window Functions
 ---
     
 ## Problem statement 1 (Q1)
