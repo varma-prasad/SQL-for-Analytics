@@ -1,9 +1,6 @@
 
 # SQL for Analytics
 
-## Table of content
-	*[Overview](#overview)
-
 ###  Overview
 
 The powerful usage of SQL tool to fetch data from Database is demonstrated. 
@@ -135,9 +132,6 @@ FROM
 ![Q3_Output](https://github.com/varma-prasad/SQL-for-Analytics/blob/82ae635a303feb8632ff19946c306dd6ad2ace66/images/q3_output.png)
 
 ----
-
-
-![Logo](https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png)
 
 
 
