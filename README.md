@@ -136,6 +136,14 @@ FROM
 ## 🛠 Tools used
 ![](https://img.shields.io/badge/postgresql-v14.5-blue)
 
+## Authors
+
+- [Varma Prasad S](https://github.com/varma-prasad)
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/varma-prasad-s/)
+
 
 
 
