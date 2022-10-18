@@ -101,7 +101,11 @@ ORDER BY
 ## Q3 Problem statement
 There are research institutes with Researchers who have written papers under the guidance of
 their mentors. You are given a database named ResearchInstitute for one such Institution.
-
+Task:
+Write an SQL Query to find subjects that contain the alphabet "b" and have papers written under
+the guidance of more female mentors than male mentors.
+---
+![ER diagram](https://github.com/varma-prasad/SQL-for-Analytics/blob/cf6945d9ab8617b98943c714843ef617bc1ae56c/images/Screenshot%202022-10-18%20105301.png)
 
 ## Input data of Q3
 
