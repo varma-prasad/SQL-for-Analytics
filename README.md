@@ -1,6 +1,14 @@
 
 # SQL for Analytics
 
+## Table of contents
+* [Overview](#overview)
+* [Technical Aspect](#technical-aspect)
+* [Customer Orders](#q1-problem-statement)
+* [Employee Incentive](#q2-problem-statement)
+* [Research Papers](#q3-problem-statement)
+* [Author](#authors)
+
 ###  Overview
 
 The powerful usage of SQL tool to fetch data from Database is demonstrated. 
@@ -21,7 +29,7 @@ The project is devided into three parts:
     * Window Functions
 ---
     
-## Problem statement 1 (Q1)
+## Q1 Problem statement
 Find all the non-local orders by looking at the salesmen that generated orders for their
 customers but are located elsewhere unlike their customers, and fetch the details like
 order_no, name of the customer, customer_id, salesman_id.
@@ -54,7 +62,7 @@ ORDER BY
 
 ----
 
-## Problem statement 2 (Q2)
+## Q2 Problem statement
 A food store is planning to give incentive to it's employees based on their monthly performance
 in sales.Incentive is different for each position and each position have it's max limit for incentive.
 Sales target to avail the incentive is a milestone.
@@ -90,7 +98,7 @@ ORDER BY
 ![Q2_Output](https://github.com/varma-prasad/SQL-for-Analytics/blob/6863e80be7e4e2be5775f5ad8baf3441fda0b10f/images/q2_output.png)
 
 ----
-## Problem statement 3 (Q3)
+## Q3 Problem statement
 There are research institutes with Researchers who have written papers under the guidance of
 their mentors. You are given a database named ResearchInstitute for one such Institution.
 
