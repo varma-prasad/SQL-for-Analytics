@@ -3,6 +3,7 @@
 
 ## Table of contents
 * [Overview](#overview)
+* [Technical Aspect](#technical_aspect)
 ###  Overview
 
 The powerful usage of SQL tool to fetch data from Database is demonstrated. 
