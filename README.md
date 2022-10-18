@@ -4,7 +4,8 @@
 ## Table of contents
 * [Overview](#overview)
 * [Technical Aspect](#technical_aspect)
-* [customer orders](#problem_statement_1_Q1)
+
+
 ###  Overview
 
 The powerful usage of SQL tool to fetch data from Database is demonstrated. 
