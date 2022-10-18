@@ -134,10 +134,9 @@ FROM
 ----
 
 ## 🛠 Tools used
-Postgresql, oracle ...
+![](https://img.shields.io/badge/postgresql-v14.5-blue)
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/varma-prasad)
+
 
 
 
