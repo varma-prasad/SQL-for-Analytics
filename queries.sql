@@ -8,7 +8,7 @@ details like order_no, name of the customer, customer_id, salesman_id.
 
 			/* query to fetch the required result*/
 
-
+	
 SELECT 
 	o.order_no, c.name, o.customer_id, s.id	-- required fields from tables
 FROM 
