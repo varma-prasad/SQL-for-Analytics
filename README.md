@@ -11,9 +11,9 @@
 
 ###  Overview
 
-The powerful usage of SQL tool to fetch data from Database is demonstrated. 
+The usage of SQL Programming language is used to fetch data from Database is demonstrated. 
 There are three problem statements related to Customer orders, Employee incentives and 
-research papers from an university.
+research papers of an university.
 ---
 
 ## Technical Aspect
